@@ -6,7 +6,7 @@
 /*   By: cltan <cltan@student.42singapore.sg>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/16 18:10:59 by cltan             #+#    #+#             */
-/*   Updated: 2026/05/16 20:18:22 by cltan            ###   ########.fr       */
+/*   Updated: 2026/05/17 15:11:20 by cltan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ long	ft_strtol(const char *s, char **endptr)
 {
 	int		i;
 	long	n;
-	
+
 	n = 0;
 	i = 0;
 	while (s[i] >= '0' && s[i] <= '9')
